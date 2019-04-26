@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		224B187D2BFD5D5240C5A43A /* Pods_RomaChat_V2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9467540E5479C42C857A3C53 /* Pods_RomaChat_V2.framework */; };
+		BC13FF65220C516B00042698 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC13FF64220C516B00042698 /* Room.swift */; };
+		BC60CBA4220AEFF200F61AA2 /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC60CBA3220AEFF200F61AA2 /* RoomsViewController.swift */; };
+		BC664F592221955C007B8417 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC664F582221955C007B8417 /* ChatCell.swift */; };
+		BC664F5B222197FF007B8417 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC664F5A222197FF007B8417 /* Message.swift */; };
+		BC7FB1EC220CF85400BD4829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC7FB1EB220CF85400BD4829 /* Assets.xcassets */; };
+		BC7FB1EE220CF8CA00BD4829 /* ChatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FB1ED220CF8CA00BD4829 /* ChatRoomViewController.swift */; };
+		BCC41F3F2204F90B00D1596B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC41F3E2204F90B00D1596B /* AppDelegate.swift */; };
+		BCC41F412204F90B00D1596B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC41F402204F90B00D1596B /* ViewController.swift */; };
+		BCC41F442204F90B00D1596B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC41F422204F90B00D1596B /* Main.storyboard */; };
+		BCC41F492204F90C00D1596B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC41F472204F90C00D1596B /* LaunchScreen.storyboard */; };
+		BCC41F532204F9DA00D1596B /* Logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = BCC41F512204F9DA00D1596B /* Logo2.png */; };
+		BCC41F542204F9DA00D1596B /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BCC41F522204F9DA00D1596B /* Logo.png */; };
+		BCC41F562204FA5000D1596B /* Main-Page.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCC41F552204FA5000D1596B /* Main-Page.jpg */; };
+		BCC41F58220508A000D1596B /* FormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC41F57220508A000D1596B /* FormCell.swift */; };
+		BCCC6D0D22079F36005D0B8D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCCC6D0C22079F36005D0B8D /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0112A4211C6D38C38403630F /* Pods-RomaChat-V2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomaChat-V2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RomaChat-V2/Pods-RomaChat-V2.debug.xcconfig"; sourceTree = "<group>"; };
+		6F3F2C32D439F8B3CDDD6889 /* Pods-RomaChat-V2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomaChat-V2.release.xcconfig"; path = "Pods/Target Support Files/Pods-RomaChat-V2/Pods-RomaChat-V2.release.xcconfig"; sourceTree = "<group>"; };
+		9467540E5479C42C857A3C53 /* Pods_RomaChat_V2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RomaChat_V2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC13FF64220C516B00042698 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		BC60CBA3220AEFF200F61AA2 /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
+		BC664F582221955C007B8417 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		BC664F5A222197FF007B8417 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		BC7FB1EB220CF85400BD4829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC7FB1ED220CF8CA00BD4829 /* ChatRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomViewController.swift; sourceTree = "<group>"; };
+		BCC41F3B2204F90B00D1596B /* RomaChat-V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RomaChat-V2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC41F3E2204F90B00D1596B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCC41F402204F90B00D1596B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCC41F432204F90B00D1596B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCC41F482204F90C00D1596B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCC41F4A2204F90C00D1596B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC41F512204F9DA00D1596B /* Logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo2.png; sourceTree = "<group>"; };
+		BCC41F522204F9DA00D1596B /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		BCC41F552204FA5000D1596B /* Main-Page.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Main-Page.jpg"; sourceTree = "<group>"; };
+		BCC41F57220508A000D1596B /* FormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormCell.swift; sourceTree = "<group>"; };
+		BCCC6D0C22079F36005D0B8D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCC41F382204F90B00D1596B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224B187D2BFD5D5240C5A43A /* Pods_RomaChat_V2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1385ED8999350255F0F6ADC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9467540E5479C42C857A3C53 /* Pods_RomaChat_V2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2071F6198BD90456A418B36E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0112A4211C6D38C38403630F /* Pods-RomaChat-V2.debug.xcconfig */,
+				6F3F2C32D439F8B3CDDD6889 /* Pods-RomaChat-V2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC13FF63220C514E00042698 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC13FF64220C516B00042698 /* Room.swift */,
+				BC664F5A222197FF007B8417 /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BCC41F322204F90B00D1596B = {
+			isa = PBXGroup;
+			children = (
+				BCC41F3D2204F90B00D1596B /* RomaChat-V2 */,
+				BCC41F3C2204F90B00D1596B /* Products */,
+				2071F6198BD90456A418B36E /* Pods */,
+				1385ED8999350255F0F6ADC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCC41F3C2204F90B00D1596B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCC41F3B2204F90B00D1596B /* RomaChat-V2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCC41F3D2204F90B00D1596B /* RomaChat-V2 */ = {
+			isa = PBXGroup;
+			children = (
+				BCC41F502204F9A500D1596B /* Resources */,
+				BC13FF63220C514E00042698 /* Models */,
+				BCC41F3E2204F90B00D1596B /* AppDelegate.swift */,
+				BC60CBA3220AEFF200F61AA2 /* RoomsViewController.swift */,
+				BCC41F402204F90B00D1596B /* ViewController.swift */,
+				BC7FB1ED220CF8CA00BD4829 /* ChatRoomViewController.swift */,
+				BCC41F422204F90B00D1596B /* Main.storyboard */,
+				BC664F582221955C007B8417 /* ChatCell.swift */,
+				BC7FB1EB220CF85400BD4829 /* Assets.xcassets */,
+				BCC41F472204F90C00D1596B /* LaunchScreen.storyboard */,
+				BCC41F4A2204F90C00D1596B /* Info.plist */,
+				BCC41F57220508A000D1596B /* FormCell.swift */,
+			);
+			path = "RomaChat-V2";
+			sourceTree = "<group>";
+		};
+		BCC41F502204F9A500D1596B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC6D0C22079F36005D0B8D /* GoogleService-Info.plist */,
+				BCC41F552204FA5000D1596B /* Main-Page.jpg */,
+				BCC41F522204F9DA00D1596B /* Logo.png */,
+				BCC41F512204F9DA00D1596B /* Logo2.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCC41F3A2204F90B00D1596B /* RomaChat-V2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC41F4D2204F90C00D1596B /* Build configuration list for PBXNativeTarget "RomaChat-V2" */;
+			buildPhases = (
+				76E4C2AB023013B420257498 /* [CP] Check Pods Manifest.lock */,
+				BCC41F372204F90B00D1596B /* Sources */,
+				BCC41F382204F90B00D1596B /* Frameworks */,
+				BCC41F392204F90B00D1596B /* Resources */,
+				B189C71ED2C24454D1A142AF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RomaChat-V2";
+			productName = "RomaChat-V2";
+			productReference = BCC41F3B2204F90B00D1596B /* RomaChat-V2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCC41F332204F90B00D1596B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Kirlos Yousef";
+				TargetAttributes = {
+					BCC41F3A2204F90B00D1596B = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = BCC41F362204F90B00D1596B /* Build configuration list for PBXProject "RomaChat-V2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCC41F322204F90B00D1596B;
+			productRefGroup = BCC41F3C2204F90B00D1596B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCC41F3A2204F90B00D1596B /* RomaChat-V2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCC41F392204F90B00D1596B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC41F492204F90C00D1596B /* LaunchScreen.storyboard in Resources */,
+				BCC41F542204F9DA00D1596B /* Logo.png in Resources */,
+				BCC41F442204F90B00D1596B /* Main.storyboard in Resources */,
+				BCC41F532204F9DA00D1596B /* Logo2.png in Resources */,
+				BCC41F562204FA5000D1596B /* Main-Page.jpg in Resources */,
+				BC7FB1EC220CF85400BD4829 /* Assets.xcassets in Resources */,
+				BCCC6D0D22079F36005D0B8D /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76E4C2AB023013B420257498 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RomaChat-V2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B189C71ED2C24454D1A142AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RomaChat-V2/Pods-RomaChat-V2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RomaChat-V2/Pods-RomaChat-V2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCC41F372204F90B00D1596B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC41F412204F90B00D1596B /* ViewController.swift in Sources */,
+				BCC41F58220508A000D1596B /* FormCell.swift in Sources */,
+				BCC41F3F2204F90B00D1596B /* AppDelegate.swift in Sources */,
+				BC60CBA4220AEFF200F61AA2 /* RoomsViewController.swift in Sources */,
+				BC664F592221955C007B8417 /* ChatCell.swift in Sources */,
+				BC664F5B222197FF007B8417 /* Message.swift in Sources */,
+				BC13FF65220C516B00042698 /* Room.swift in Sources */,
+				BC7FB1EE220CF8CA00BD4829 /* ChatRoomViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCC41F422204F90B00D1596B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC41F432204F90B00D1596B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCC41F472204F90C00D1596B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC41F482204F90C00D1596B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCC41F4B2204F90C00D1596B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCC41F4C2204F90C00D1596B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCC41F4E2204F90C00D1596B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0112A4211C6D38C38403630F /* Pods-RomaChat-V2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3Y3NN5H2E;
+				INFOPLIST_FILE = "RomaChat-V2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KirlosApps.RomaChat-V2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCC41F4F2204F90C00D1596B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F3F2C32D439F8B3CDDD6889 /* Pods-RomaChat-V2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3Y3NN5H2E;
+				INFOPLIST_FILE = "RomaChat-V2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KirlosApps.RomaChat-V2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCC41F362204F90B00D1596B /* Build configuration list for PBXProject "RomaChat-V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC41F4B2204F90C00D1596B /* Debug */,
+				BCC41F4C2204F90C00D1596B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC41F4D2204F90C00D1596B /* Build configuration list for PBXNativeTarget "RomaChat-V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC41F4E2204F90C00D1596B /* Debug */,
+				BCC41F4F2204F90C00D1596B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCC41F332204F90B00D1596B /* Project object */;
+}
